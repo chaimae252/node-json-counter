@@ -10,7 +10,7 @@ RUN npm install
 # Copy all project files
 COPY . .
 
-# Expose port
+# Expose the port (Azure injects PORT, default 3000)
 EXPOSE 3000
 
 # Start the app
